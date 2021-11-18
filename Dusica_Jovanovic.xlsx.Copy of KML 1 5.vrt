@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGRVRTDataSource>
+    <OGRVRTLayer name="Dusica_Jovanovic-Copy of KML 1 5">
+        <SrcDataSource relativeToVRT="1">Dusica_Jovanovic.xlsx</SrcDataSource>
+        <!--Header=False-->
+        <SrcLayer>Copy of KML 1 5</SrcLayer>
+        <Field name="RB" src="RB" type="Integer"/>
+        <Field name="MARKER" src="MARKER" type="String"/>
+        <Field name="RMS" src="RMS" type="Real"/>
+        <Field name="MAX-G" src="MAX-G" type="Real"/>
+        <Field name="X-G" src="X-G" type="Real"/>
+        <Field name="Y-G" src="Y-G" type="Real"/>
+        <Field name="Z-G" src="Z-G" type="Real"/>
+        <Field name="V" src="V" type="Real"/>
+        <GeometryType>wkbPoint</GeometryType>
+        <LayerSRS>EPSG:4326</LayerSRS>
+        <GeometryField encoding="PointFromColumns" x="lon" y="lat"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>
